@@ -87,6 +87,20 @@ The main flow is:
 
 No external cloud AI service is used for the inference performed by this application.
 
+Web Interface
+
+A browser-based interface is also included for interacting with the local QVAC AI model.
+
+Start the web application with:
+
+node server.js
+
+Then open:
+
+http://localhost:3000
+
+The web interface uses QVAC for local on-device inference. It uses loadModel() to load the AI model and completion() to generate responses locally. No cloud AI API is used for inference.
+
 ## License
 
 This project is licensed under the MIT License.
