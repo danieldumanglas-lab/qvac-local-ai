@@ -90,3 +90,9 @@ No external cloud AI service is used for the inference performed by this applica
 ## License
 
 This project is licensed under the MIT License.
+
+## Project Status
+
+This project is a working demonstration of on-device AI inference using Tether's QVAC SDK.
+
+The application has been tested locally with QVAC SDK version 0.19.1.
