@@ -1,0 +1,20 @@
+{
+  "name": "qvac-local-ai",
+  "version": "1.0.0",
+  "description": "A local AI assistant powered by Tether's QVAC SDK.",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "qvac",
+    "local-ai",
+    "on-device-ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@qvac/sdk": "0.19.1"
+  }
+}
