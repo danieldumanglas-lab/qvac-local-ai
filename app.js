@@ -26,6 +26,7 @@ try {
   });
 
   console.log("✓ QVAC model loaded successfully!\n");
+  console.log("✓ Inference mode: ON-DEVICE / LOCAL\n");
   console.log("Ask a question below.");
   console.log("Type 'exit' to quit.\n");
 
